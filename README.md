@@ -1,9 +1,9 @@
 # FavHeroesAPIConsumer
-A application designed to consume Marver's Superheroes API.
+An application designed to consume Marvel's Superheroes API.
 
 ## Maven Installed
 
-These commands just works if you're running a installed version of Maven. To use its standalone version, jump to next section.
+These commands just work if you're running an installed version of Maven. To use its standalone version, jump to next section.
 
 ### Solving Dependencies
 In both operation systems, Windows and Linux, navigate until application's folder and run the following commands:
@@ -21,7 +21,7 @@ As in previously command, navigate to application's folder, so type the command:
 
 ## Using Maven Wrapper
 
-These instructions are designeted to machines that doesn't have Apache Maven installed. To run Maven command, navigate to application's folder,  so you're supposed to find two files called **mvnw** and **mvnw.cmd**. The first one is a Linux's standalone version of Maven, to use as following:
+These instructions are designated to machines that don't have Apache Maven installed. In this case, to run Maven commands, navigate to application's folder, so you're supposed to find two files called **mvnw** and **mvnw.cmd**. The first one is a Linux's standalone version of Maven, to use as following:
 
 ```
 > ./mvnw <your_command_here>
