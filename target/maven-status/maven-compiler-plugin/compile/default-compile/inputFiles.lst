@@ -1,5 +1,8 @@
+/home/rogervieira/Repositórios/FavHeroesAPIConsumer/src/main/java/com/omnilabs/favheroesapiconsumer/model/ComicResult.java
 /home/rogervieira/Repositórios/FavHeroesAPIConsumer/src/main/java/com/omnilabs/favheroesapiconsumer/FavHeroesAPIConsumerApplication.java
 /home/rogervieira/Repositórios/FavHeroesAPIConsumer/src/main/java/com/omnilabs/favheroesapiconsumer/service/CharacterService.java
+/home/rogervieira/Repositórios/FavHeroesAPIConsumer/src/main/java/com/omnilabs/favheroesapiconsumer/model/CharacterResult.java
+/home/rogervieira/Repositórios/FavHeroesAPIConsumer/src/main/java/com/omnilabs/favheroesapiconsumer/service/ComicService.java
 /home/rogervieira/Repositórios/FavHeroesAPIConsumer/src/main/java/com/omnilabs/favheroesapiconsumer/model/Response.java
 /home/rogervieira/Repositórios/FavHeroesAPIConsumer/src/main/java/com/omnilabs/favheroesapiconsumer/model/Thumbnail.java
 /home/rogervieira/Repositórios/FavHeroesAPIConsumer/src/main/java/com/omnilabs/favheroesapiconsumer/model/Character.java
