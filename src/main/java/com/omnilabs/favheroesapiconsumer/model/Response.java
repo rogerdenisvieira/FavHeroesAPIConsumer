@@ -3,16 +3,16 @@ package com.omnilabs.favheroesapiconsumer.model;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 
-public class Response {
+public class Response<T> {
 
     @JsonProperty("data")
-    private Data data;
+    private Data<T> data;
 
-    public Data getData() {
+    public Data<T> getData() {
         return data;
     }
 
-    public void setData(Data data) {
+    public void setData(Data<T> data) {
         this.data = data;
     }
 }

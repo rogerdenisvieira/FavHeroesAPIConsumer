@@ -1,21 +1,18 @@
 package com.omnilabs.favheroesapiconsumer.service;
 
-import com.google.gson.Gson;
-import com.omnilabs.favheroesapiconsumer.controller.MainController;
-import com.omnilabs.favheroesapiconsumer.factory.MarvelURIFactory;
 import com.omnilabs.favheroesapiconsumer.model.Character;
-import com.omnilabs.favheroesapiconsumer.model.Response;
+import com.omnilabs.favheroesapiconsumer.factory.MarvelURIFactory;
+import com.omnilabs.favheroesapiconsumer.model.*;
 
-import com.omnilabs.favheroesapiconsumer.model.Result;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.core.ParameterizedTypeReference;
 import org.springframework.http.*;
 import org.springframework.stereotype.Service;
 import org.springframework.web.client.RestTemplate;
 
 import java.net.URISyntaxException;
-import java.util.List;
 
 @Service
 public class CharacterService {
@@ -39,19 +36,23 @@ public class CharacterService {
         headers.set("Accept", MediaType.APPLICATION_JSON_VALUE);
         HttpEntity<String> entity = new HttpEntity<>(headers);
 
-        ResponseEntity<Response> response = template.exchange(
+        ResponseEntity<Response<CharacterResult>> response = template.exchange(
                 marvelURIFactory.getCharactersURI(id).toString(),
                 HttpMethod.GET,
                 entity,
-                Response.class
+                new ParameterizedTypeReference<Response<CharacterResult>>() {}
         );
 
-        Result result = response.getBody().getData().getResults().get(0);
+        CharacterResult characterResult = response.getBody().getData().getResults().get(0);
 
         Character character = new Character(
-                result.getName(),
-                result.getDescription()
+                characterResult.getId(),
+                characterResult.getName(),
+                characterResult.getDescription(),
+                characterResult.getThumbnail().getPath()
         );
+
+        LOG.info("Character: {}", character.toString());
 
         return character;
     }

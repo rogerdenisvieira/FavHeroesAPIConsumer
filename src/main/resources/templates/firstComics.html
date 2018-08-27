@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>First Comics</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="/css/round-about.css" rel="stylesheet">
+
+    <link href="/css/sticky-footer.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+<!-- Navigation -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <div class="container">
+        <a class="navbar-brand" href="#">First Comics</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
+                aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home
+                        <span class="sr-only">(current)</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<!-- Page Content -->
+<div class="container">
+
+    <!-- Introduction Row -->
+    <h1 class="my-4">Marvel API
+        <small>Roger's Favorites Characters</small>
+    </h1>
+    <p>An application designed to consume Marvel's Superheroes API.</p>
+
+
+    <!-- Team Members Row -->
+    <div class="row">
+        <div class="col-lg-12">
+            <h2 class="my-4">First Comics</h2>
+        </div>
+
+        <div class="col-lg-4 col-sm-6 text-center mb-4" th:each="comic : ${comicList}">
+            <img class="rounded-circle img-fluid d-block mx-auto" th:attr="src=${comic.thumbnailPath}" alt="">
+            <h3><span th:text="${comic.title}">Title</span>
+                <small><span th:text="${comic.id}">Id</span></small>
+            </h3>
+            <p><span th:text="${comic.description}">Description</span></p>
+        </div>
+    </div>
+
+
+</div>
+<!-- /.container -->
+
+<!-- Footer -->
+<div class="footer">
+
+    <p>Copyright Roger D. Vieira &copy; 2018. Data provided by Marvel. &copy;
+        2014 Marvel.</p>
+
+    <!-- /.container -->
+</div>
+
+<!-- Bootstrap core JavaScript -->
+<script src="/js/jquery.min.js"></script>
+<script src="/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>

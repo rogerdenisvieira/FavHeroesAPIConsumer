@@ -1,8 +1,11 @@
 package com.omnilabs.favheroesapiconsumer.factory;
 
+import com.omnilabs.favheroesapiconsumer.controller.MainController;
 import com.omnilabs.favheroesapiconsumer.properties.FavHeroesAPIConsumerProperties;
 import org.apache.commons.codec.digest.DigestUtils;
 import org.apache.http.client.utils.URIBuilder;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
@@ -13,8 +16,8 @@ import java.sql.Timestamp;
 @Component
 public class MarvelURIFactory {
 
+    private static final Logger LOG = LoggerFactory.getLogger(MarvelURIFactory.class);
     private FavHeroesAPIConsumerProperties favHeroesAPIConsumerProperties;
-
     private final String PROTOCOL = "http";
 
 
@@ -28,31 +31,36 @@ public class MarvelURIFactory {
 
         URIBuilder uriBuilder = new URIBuilder();
 
-        uriBuilder
+        URI uri = uriBuilder
                 .setScheme(PROTOCOL)
                 .setHost(favHeroesAPIConsumerProperties.getHost())
                 .setPath(String.format("/characters/%s", id.toString()))
                 .addParameter("ts", getTimeStamp())
                 .addParameter("apikey", favHeroesAPIConsumerProperties.getPublicKey())
-                .addParameter("hash", getHash());
+                .addParameter("hash", getHash())
+                .build();
 
-        return uriBuilder.build();
+
+        LOG.info("Character URI built: {}", uri.toString());
+        return uri;
     }
 
     public URI getComicsURI(Integer characterId, Integer limit) throws URISyntaxException {
 
         URIBuilder uriBuilder = new URIBuilder();
 
-        uriBuilder
+        URI uri = uriBuilder
                 .setScheme(PROTOCOL)
                 .setHost(favHeroesAPIConsumerProperties.getHost())
                 .setPath(String.format("/characters/%s/comics", characterId))
                 .addParameter("limit", limit.toString())
                 .addParameter("ts", getTimeStamp())
                 .addParameter("apikey", favHeroesAPIConsumerProperties.getPublicKey())
-                .addParameter("hash", getHash());
+                .addParameter("hash", getHash())
+                .build();
 
-        return uriBuilder.build();
+        LOG.info("Comic URI built: {}", uri.toString());
+        return uri;
     }
 
     private String getHash() {
