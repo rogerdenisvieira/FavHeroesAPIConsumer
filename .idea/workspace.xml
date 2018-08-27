@@ -1,45 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="130e9326-71d0-4b8d-a236-06f1ffb514b6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/omnilabs/favheroesapiconsumer/model/CharacterResult.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/omnilabs/favheroesapiconsumer/model/ComicResult.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/sticky-footer.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/firstComics.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/omnilabs/favheroesapiconsumer/controller/MainController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/omnilabs/favheroesapiconsumer/controller/MainController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/omnilabs/favheroesapiconsumer/factory/MarvelURIFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/omnilabs/favheroesapiconsumer/factory/MarvelURIFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/omnilabs/favheroesapiconsumer/model/Character.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/omnilabs/favheroesapiconsumer/model/Character.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/omnilabs/favheroesapiconsumer/model/Comic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/omnilabs/favheroesapiconsumer/model/Comic.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/omnilabs/favheroesapiconsumer/model/Data.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/omnilabs/favheroesapiconsumer/model/Data.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/omnilabs/favheroesapiconsumer/model/Response.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/omnilabs/favheroesapiconsumer/model/Response.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/omnilabs/favheroesapiconsumer/model/Result.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/omnilabs/favheroesapiconsumer/model/Result.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/omnilabs/favheroesapiconsumer/model/Thumbnail.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/omnilabs/favheroesapiconsumer/model/Thumbnail.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/omnilabs/favheroesapiconsumer/pagemap/Pages.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/omnilabs/favheroesapiconsumer/pagemap/Pages.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/omnilabs/favheroesapiconsumer/service/CharacterService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/omnilabs/favheroesapiconsumer/service/CharacterService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/omnilabs/favheroesapiconsumer/service/ComicService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/omnilabs/favheroesapiconsumer/service/ComicService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/css/bootstrap.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/css/bootstrap.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/js/bootstrap.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/js/bootstrap.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/js/jquery.maskMoney.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/home.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/topComics.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/omnilabs/favheroesapiconsumer/controller/MainController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/omnilabs/favheroesapiconsumer/controller/MainController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/omnilabs/favheroesapiconsumer/factory/MarvelURIFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/omnilabs/favheroesapiconsumer/factory/MarvelURIFactory.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/omnilabs/favheroesapiconsumer/model/Character.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/omnilabs/favheroesapiconsumer/model/Character.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/omnilabs/favheroesapiconsumer/model/Comic.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/omnilabs/favheroesapiconsumer/model/Comic.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/omnilabs/favheroesapiconsumer/model/Data.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/omnilabs/favheroesapiconsumer/model/Data.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/omnilabs/favheroesapiconsumer/model/Response.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/omnilabs/favheroesapiconsumer/model/Response.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/omnilabs/favheroesapiconsumer/model/Result.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/omnilabs/favheroesapiconsumer/model/Result.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/omnilabs/favheroesapiconsumer/model/Thumbnail.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/omnilabs/favheroesapiconsumer/model/Thumbnail.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/omnilabs/favheroesapiconsumer/pagemap/Pages.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/omnilabs/favheroesapiconsumer/pagemap/Pages.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/omnilabs/favheroesapiconsumer/service/CharacterService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/omnilabs/favheroesapiconsumer/service/CharacterService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/omnilabs/favheroesapiconsumer/service/ComicService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/omnilabs/favheroesapiconsumer/service/ComicService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/css/bootstrap.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/css/bootstrap.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/js/bootstrap.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/js/bootstrap.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/js/jquery.maskMoney.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/home.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/topComics.html" beforeDir="false" />
-    </list>
+    <list default="true" id="130e9326-71d0-4b8d-a236-06f1ffb514b6" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />

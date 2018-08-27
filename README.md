@@ -19,6 +19,18 @@ As in previously command, navigate to application's folder, so type the command:
 > mvn spring-boot:run
 ```
 
+### Accessing Application
+
+To access the application's home, open a regular web browser and put the address as follows:
+
+http://localhost:8080/
+
+Comics's page is available by an hyperlink below character's description, however you can access it directly by typing the following URL in your browser:
+
+http://localhost:8080/characters/1009368/comics
+
+**Note:** in this case, ID 1009368 refers to Iron Man comics page.
+
 ## Using Maven Wrapper
 
 These instructions are designated to machines that don't have Apache Maven installed. In this case, to run Maven commands, navigate to application's folder, so you're supposed to find two files called **mvnw** and **mvnw.cmd**. The first one is a Linux's standalone version of Maven, to use as following:
