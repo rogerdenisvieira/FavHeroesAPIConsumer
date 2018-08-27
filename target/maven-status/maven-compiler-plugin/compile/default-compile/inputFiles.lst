@@ -1,0 +1,14 @@
+/home/rogervieira/Repositórios/FavHeroesAPIConsumer/src/main/java/com/omnilabs/favheroesapiconsumer/FavHeroesAPIConsumerApplication.java
+/home/rogervieira/Repositórios/FavHeroesAPIConsumer/src/main/java/com/omnilabs/favheroesapiconsumer/service/CharacterService.java
+/home/rogervieira/Repositórios/FavHeroesAPIConsumer/src/main/java/com/omnilabs/favheroesapiconsumer/model/Response.java
+/home/rogervieira/Repositórios/FavHeroesAPIConsumer/src/main/java/com/omnilabs/favheroesapiconsumer/model/Thumbnail.java
+/home/rogervieira/Repositórios/FavHeroesAPIConsumer/src/main/java/com/omnilabs/favheroesapiconsumer/model/Character.java
+/home/rogervieira/Repositórios/FavHeroesAPIConsumer/src/main/java/com/omnilabs/favheroesapiconsumer/controller/MainController.java
+/home/rogervieira/Repositórios/FavHeroesAPIConsumer/src/main/java/com/omnilabs/favheroesapiconsumer/factory/MarvelURIFactory.java
+/home/rogervieira/Repositórios/FavHeroesAPIConsumer/src/main/java/com/omnilabs/favheroesapiconsumer/model/Data.java
+/home/rogervieira/Repositórios/FavHeroesAPIConsumer/src/main/java/com/omnilabs/favheroesapiconsumer/model/Url.java
+/home/rogervieira/Repositórios/FavHeroesAPIConsumer/src/main/java/com/omnilabs/favheroesapiconsumer/properties/FavHeroesAPIConsumerProperties.java
+/home/rogervieira/Repositórios/FavHeroesAPIConsumer/src/main/java/com/omnilabs/favheroesapiconsumer/pagemap/Pages.java
+/home/rogervieira/Repositórios/FavHeroesAPIConsumer/src/main/java/com/omnilabs/favheroesapiconsumer/ServletInitializer.java
+/home/rogervieira/Repositórios/FavHeroesAPIConsumer/src/main/java/com/omnilabs/favheroesapiconsumer/model/Result.java
+/home/rogervieira/Repositórios/FavHeroesAPIConsumer/src/main/java/com/omnilabs/favheroesapiconsumer/model/Comic.java

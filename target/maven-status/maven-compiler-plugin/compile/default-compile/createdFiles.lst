@@ -1,0 +1,14 @@
+com/zenvia/neowayconnector/ServletInitializer.class
+com/omnilabs/favheroesapiconsumer/factory/MarvelURIFactory.class
+com/omnilabs/favheroesapiconsumer/controller/MainController.class
+com/omnilabs/favheroesapiconsumer/service/CharacterService.class
+com/omnilabs/favheroesapiconsumer/model/Character.class
+com/omnilabs/favheroesapiconsumer/model/Comic.class
+com/omnilabs/favheroesapiconsumer/model/Thumbnail.class
+com/omnilabs/favheroesapiconsumer/model/Data.class
+com/omnilabs/favheroesapiconsumer/properties/FavHeroesAPIConsumerProperties.class
+com/omnilabs/favheroesapiconsumer/model/Result.class
+com/omnilabs/favheroesapiconsumer/model/Response.class
+com/omnilabs/favheroesapiconsumer/FavHeroesAPIConsumerApplication.class
+com/omnilabs/favheroesapiconsumer/model/Url.class
+com/omnilabs/favheroesapiconsumer/pagemap/Pages.class
